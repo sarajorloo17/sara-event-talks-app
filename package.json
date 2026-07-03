@@ -1,0 +1,11 @@
+{
+  "name": "sara-event-talks-app",
+  "version": "1.0.0",
+  "description": "A Flask app to display and tweet BigQuery release notes.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
