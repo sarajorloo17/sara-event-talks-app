@@ -7,12 +7,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>BigQuery Release Notes</h1>
+        <div class="header-row">
+            <h1>BigQuery Release Notes</h1>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
         <button id="refresh-btn">
             <span id="spinner" class="spinner" style="display:none;"></span>
             Refresh
         </button>
+        <button id="export-csv-btn">Export to CSV</button>
         <ul id="notes-list"></ul>
+<!-- Toast message container -->
+<div id="toast-msg" style="display:none"></div>
     </div>
     <script src="/static/app.js"></script>
 </body>
